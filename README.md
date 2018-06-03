@@ -1,3 +1,77 @@
+Meets Specifications
+Great job getting everything all figured out and using the GPU. So much faster.
+
+Project completed!
+Heres a silly example of a huge dataset trained a bunch. A fellow Udacity student trained an RNN on the game of thrones book to generate the next chapters in the book.
+
+https://motherboard.vice.com/en_us/article/evvq3n/game-of-thrones-winds-of-winter-neural-network
+
+Chapters and code here.
+
+https://github.com/zackthoutt/got-book-6/tree/master/generated-book-v1
+
+Files Submitted
+The submission includes all required file RNN_project_student_version.ipynb All code must be written ONLY in the TODO sections and no previous code should be modified.
+
+Step 1: Implement a function to window time series
+The submission returns the proper windowed version of input time series of proper dimension listed in the notebook.
+
+Correct!
+
+Step 2: Create a simple RNN model for regression
+The submission constructs an RNN model in keras with LSTM module of dimension defined in the notebook.
+
+Correct!
+
+Step 3: Clean up a large text corpus
+The submission removes all non-english / non-punctuation characters. (English characters should include string.ascii_lowercase and punctuation includes [' ', '!', ',', '.', ':', ';', '?'] (space, exclamation mark, comma, period, colon, semicolon, question mark))
+
+Correct!
+
+Step 4: Implement a function to window a large text corpus
+The submission returns the proper windowed version of input text of proper dimension listed in the notebook.
+
+Correct!
+
+Step 5: Create an RNN perform multiclass
+The submission constructs an RNN model in keras with LSTM module of dimension defined in the notebook.
+
+Correct!
+
+Step 6: Generate text using a fully trained RNN
+The submission presents examples of generated text from a trained RNN module. The majority of this generated text should consist of real english words.
+
+Doesn't make any sense but definitely mostly English.
+
+input chars = 
+er, of dubious and questionable memory. i had seen little of holmes lately. my marriage had drifted "
+
+predicted chars = 
+up to his hands and soncedsed to excemp to senverate of the stragge and the corners from the oncthor"
+
+-------------------
+
+input chars = 
+f the singular tragedy of the atkinson brothers at trincomalee, and finally of the mission which he "
+
+predicted chars = 
+had deen to be absolutely sill. i should thr winding a can fine in the matter a lettle men whe could"
+
+-------------------
+
+input chars = 
+ands clasped behind him. to me, who knew his every mood and habit, his attitude and manner told thei"
+
+predicted chars = 
+r as for more, and we have ne woll to get the street and a can of conders that i would gome all we h"
+
+
+
+
+
+
+
+
 # Recurrent Neural Networks course project: time series prediction and text generation
 
 ### Amazon Web Services
